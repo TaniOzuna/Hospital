@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Patient name:"
+        style="@style/textViewPatient"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        style="@style/editTextPatient"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Patient last name:"
+        style="@style/textViewPatient"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        style="@style/editTextPatient"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Patient age:"
+        style="@style/textViewPatient"/>
+
+    <EditText
+        android:id="@+id/edad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        style="@style/editTextPatient"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email address:"
+        style="@style/textViewPatient">
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        style="@style/editTextPatient"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone number:"
+        style="@style/textViewPatient">
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        style="@style/editTextPatient"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Blood type:"
+        style="@style/textViewPatient"/>
+
+    <Spinner
+        android:id="@+id/bloodType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </Spinner>
+
+    <DatePicker
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+    </DatePicker>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Appointment date:"
+        style="@style/textViewPatient"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        style="@style/editTextPatient"/>
+
+    <TimePicker
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/timePicker">
+    </TimePicker>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Credit card number:"
+        style="@style/textViewPatient"/>
+
+    <EditText
+        android:id="@+id/credit_card_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="16"
+        style="@style/editTextPatient">
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CCV:"
+        style="@style/textViewPatient"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:maxLength="4"
+        style="@style/editTextPatient"/>
+
+</LinearLayout>
+</ScrollView>
+
+
+

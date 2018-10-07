@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Hospital</string>
+    <string name="credit_card_text">Tarjeta de credito</string>
+    <string-array name="blood_type">
+        <item>ORH</item>
+        <item>ARH</item>
+        <item>A</item>
+    </string-array>
+</resources>
